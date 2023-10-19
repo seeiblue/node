@@ -1,0 +1,710 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#one {
+    text-align: center;
+    /* 文本对齐样式 */
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    /* 盒内元素到顶部距离 */
+}
+
+a {
+    color: #27a;
+    text-decoration: none;
+    cursor: pointer;
+    /* 设置鼠标在元素上面时的指针形状 */
+}
+
+.one-input {
+    width: 250px;
+    height: 25px;
+    color: grey;
+    position: relative;
+    /* 定义相对位置 */
+    top: -5px;
+    /* 原本位置向上移动 */
+    border: 1px solid;
+    /* 定义边框粗细和颜色 */
+    background-image: url(images/bn_srh_1.png);
+    background-repeat: no-repeat;
+    /* 不重复背景图 */
+    background-position: 225px 6px;
+    text-indent: 0.5em;
+    /* 文本首行缩进 */
+}
+
+.two {
+    width: 100%;
+    height: 100px;
+    background-color: #f7f7f7;
+    /* 填充颜色 */
+}
+
+.two-box {
+    width: auto;
+    display: flex;
+    margin-left: 30px;
+}
+
+.two-a {
+    float: left;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    background-color: #ef7360;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    /* 无下划线 */
+    text-indent: 1em;
+    line-height: 40px;
+    /* 行高(与height值一致即垂直居中) */
+    border-radius: 3px;
+    /* 圆角边框 */
+}
+
+.two-a-span {
+    float: left;
+    font-size: 12px;
+    position: relative;
+}
+
+.two span.l {
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 100px;
+    white-space: nowrap;
+    /* 禁止元素中的文本换行显示 */
+}
+
+.left {
+    float: left;
+    width: 160px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.center {
+    float: left;
+    width: 160px;
+    height: 100px;
+    margin-left: 4px;
+}
+
+.right {
+    float: left;
+    width: 160px;
+    height: 100px;
+    margin-left: 4px;
+}
+
+.two-input {
+    width: 160px;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+}
+
+.two-input-one {
+    margin-top: 10px;
+}
+
+.two-input-label {
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+}
+
+.two-a-center {
+    float: left;
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: 8px;
+}
+
+.two-a-right {
+    float: left;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    background-color: #3ba354;
+    text-decoration: none;
+    text-indent: 2em;
+    margin-top: 20px;
+    line-height: 35px;
+    /* 行高(与height值一致即垂直居中) */
+    border-radius: 3px;
+    /* 圆角边框 */
+}
+
+.three {
+    margin: 0 auto;
+}
+
+.three li {
+    margin-bottom: 15px;
+}
+
+.three-left {
+    float: left;
+    width: 400px;
+    height: 600px;
+
+}
+
+.three-center {
+    float: left;
+    width: 300px;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.three-right {
+    float: left;
+    width: 210px;
+    height: 600px;
+}
+
+.three-lv {
+    color: #007722;
+    line-height: 150%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.three-spen {
+    float: left;
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+.three-left-sbox {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.three-left-sbox img {
+    display: block;
+}
+
+.three-a {
+    float: left;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+ul {
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.three-center ul {
+    display: flex;
+    /* 弹性盒子 */
+}
+
+li {
+    font-size: 10px;
+}
+
+.more {
+    display: inline-block;
+    margin-left: 1px;
+    font-size: 10px;
+    vertical-align: middle;
+    /* 设置元素的垂直对齐方式 将元素的中心点与父元素的中心点对齐； */
+}
+
+.three-right-bottom {
+    float: left;
+    width: 250px;
+    height: 120px;
+    border: 0.5px solid #eaeaea;
+    padding: 10px;
+    background-image: url(images/file-1381401007.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.three-right-bottom-top {
+    float: left;
+    width: 250px;
+    height: 40px;
+    margin: 5px 5px 0px;
+    background-image: url(images/file-1381401029.png);
+    background-repeat: no-repeat;
+    background-position: 70px -5px;
+}
+
+.three-right-bottom-left {
+    float: left;
+    width: 90px;
+    height: 60px;
+    margin: 0px 5px;
+}
+
+.three-right-bottom-right {
+    float: right;
+    width: 150px;
+    height: 60px;
+    margin: 5px -10px 5px 5px;
+}
+
+.three-bottom img {
+    position: relative;
+    left: 250px;
+}
+
+#four {
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+#four li {
+    margin-bottom: 15px;
+}
+
+.xingji i {
+    margin-left: 4px;
+    color: #e09015;
+}
+
+.yiyang {
+    padding: 10px 0;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+
+.wrapper {
+    width: 950px;
+    height: 560px;
+    margin: 0 auto;
+}
+
+.wrapperend {
+    width: 950px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+.leftyangshi {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+h2 {
+    font: 24px Arial, Helvetica, sans-serif;
+    margin: 0 0 12px 0;
+    line-height: 80px;
+    width: 50px;
+}
+
+.yiyangleibao {
+    margin-bottom: 40px;
+    width: 100px;
+}
+
+.yiyangdtu {
+    width: 100px;
+    height: 80px;
+}
+
+.four-left-tu {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(6\).png);
+    border-radius: 10px;
+}
+
+.rightyangshi {
+    float: right;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.mod {
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.cate {
+    margin-bottom: 40px;
+}
+
+.cate ul {
+    margin-left: -10px;
+    display: inline-block;
+}
+
+.cate li {
+    float: left;
+    margin-left: 10px;
+}
+
+.cate li a {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cate table {
+    border-spacing: 10px;
+    font-size: 12px;
+}
+
+.yingpian-cate {
+    width: 260px;
+}
+
+#fourol li {
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.centeryangshi {
+    overflow: hidden;
+    width: 540px;
+    height: 700px;
+}
+
+.list {
+    font-size: 0;
+    letter-spacing: -.31em;
+}
+
+.list li {
+    display: inline-block;
+    width: 24.8%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.list .tupian {
+    /* margin-bottom: 10px; */
+    height: 145px;
+    overflow: hidden;
+}
+
+.tupian img {
+    width: 100px;
+    max-width: 100%;
+}
+
+.list .biaoti {
+    line-height: 1.45;
+    font-size: 13px;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+}
+
+.xingji {
+    margin-bottom: 4px;
+}
+
+.xingxing {
+    background-image: url(images/midstars.gif);
+    background-position: 0 -11px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+    background-position: 0 0px;
+}
+
+.dingpiao {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px 10px;
+    border-radius: 2px;
+    background: #1c8bd0;
+    color: #fff;
+}
+
+#five li{
+    margin-bottom: 15px;
+}
+
+.five-tu01 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(1\).png);
+    border-radius: 10px;
+}
+
+.five-tu02 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(7\).png);
+    border-radius: 10px;
+}
+
+.five-tu03 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(5\).png);
+    border-radius: 10px;
+}
+
+.book-cate-mod {
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+.book-cate-mod .cate {
+    padding-top: 10px;
+    margin: -1px 0 0px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.book-cate-mod.cate-label {
+    width: auto;
+    font-size: 12px;
+    color: #999;
+}
+
+#five a {
+    color: #614e3c;
+}
+
+.pay {
+    height: 19px;
+    margin-bottom: 4px;
+    color: #666;
+}
+
+.free-book {
+    background: #999a95;
+    color: #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px 10px;
+    border-radius: 2px;
+}
+
+.book-tu {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#six {
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+#six li{
+    margin-bottom: 15px;
+}
+
+.six-yinyue {
+    color: #f38c00;
+}
+
+.six-tu01 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(4\).png);
+    border-radius: 10px;
+}
+
+.six-tu02 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(2\).png);
+    border-radius: 10px;
+}
+
+.list1 li {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.yiyangleibao li {
+    font-size: 14px;
+}
+
+.xuhao {
+    float: left;
+    max-height: 61px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.six-a {
+    color: #555d53;
+}
+
+.biaoti .six-a {
+    font-size: 12px;
+}
+
+.desc {
+    font-size: 12px;
+    color: grey;
+}
+
+.six-tu03 {
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.six-tu03 img {
+    width: 45px;
+    height: 60px;
+    max-height: 100%;
+}
+
+.list .tupian2 {
+    height: 90px;
+    overflow: hidden;
+}
+
+.seven-xiaozu {
+    color: #007982;
+}
+
+.seven-a {
+    color: #017a85;
+}
+
+.seven-tu01 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(8\).png);
+    border-radius: 10px;
+}
+
+.cate-label2 {
+    color: #333;
+    width: 100%;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #017a85;
+}
+
+.xiaozu ul {
+    margin-left: -30px;
+}
+
+.xiaozu li {
+    width: 248px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: left;
+    overflow: hidden;
+    zoom: 1;
+    color: #999;
+}
+
+.tupian3 {
+    float: left;
+    margin-right: 15px;
+}
+
+.tupian3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.xiaozu.info {
+    overflow: hidden;
+    zoom: 1;
+}
+
+#night {
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.night-tongcheng {
+    color: #ec5303;
+}
+
+.night-a {
+    color: #643;
+}
+
+.night-tu01 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(images/app_icons_50_6\(3\).jpg);
+    border-radius: 10px;
+}
+
+#id ul {
+    margin-left: -20px;
+}
+
+.night-zzsp {
+    display: inline;
+    color: #fff;
+    background-color: #f38c00;
+    padding: 0px 2px;
+}
+
+#tongcheng.info {
+    overflow: hidden;
+    zoom: 1;
+    color: #666;
+}
+
+#tongcheng li {
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 0px;
+}
+
+.tupian4 {
+    float: left;
+    margin-right: 5px;
+}
+
+.tupian4 img {
+    height: 90px;
+    width: 70px;
+}
+
+.end-tu {
+    margin-top: 20px;
+    text-align: center;
+}
